@@ -1,6 +1,5 @@
 import type { AuthProvider } from "@refinedev/core";
-import { useNavigate } from "react-router-dom";
-import type { User } from "../graphql/schema.types";
+import type { User } from "@/graphql/schema.types";
 
 import { API_URL, dataProvider } from "./data";
 
